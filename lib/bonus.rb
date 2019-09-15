@@ -30,6 +30,4 @@ def bonus
   epic_tragedy
 end
 
-# TEST CODE
 
-puts bonus
