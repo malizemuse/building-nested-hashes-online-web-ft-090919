@@ -23,11 +23,11 @@ def bonus
   #code your solution here:
   
   # Changes Romeo and Juliet's statuses to dead
-  puts epic_tragedy[:montague][:hero][:status] = "dead"
-  puts epic_tragedy[:capulet][:heroine][:status] = "dead"
+  epic_tragedy[:montague][:hero][:status] = "dead"
+  epic_tragedy[:capulet][:heroine][:status] = "dead"
   
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
-  #epic_tragedy
+  epic_tragedy
 end
 
 # TEST CODE
